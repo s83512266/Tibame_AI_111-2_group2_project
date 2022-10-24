@@ -15,7 +15,7 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage, ImageMessage
 )
 
-model = models.load_model("/content/drive/MyDrive/transfer_best_v2.h5")
+model = models.load_model("transfer_best_v2.h5")
 
 all_class = ['MD_Normal', 'MD_old_water', 'MD_sunburnt', 'MD_bac_fungi', 'Others']
 
