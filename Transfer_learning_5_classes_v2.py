@@ -18,7 +18,7 @@ from linebot.models import (
 
 model = load_model("transfer_best_v2.h5")
 
-all_class = ['MD_Normal', 'MD_old_water', 'MD_sunburnt', 'MD_bac_fungi', 'Others']
+all_class = ['正常的龜背芋', '根爛或老化', '曬傷', '病菌感染', '其他植物']
 
 app = Flask(__name__)
 
